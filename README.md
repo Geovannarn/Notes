@@ -1,2 +1,2 @@
 # Notes
-Anotações complementares ao estudos em PYTHON 
+Anotações complementares ao estudo em PYTHON 
