@@ -1,0 +1,11 @@
+O AUDIT é responsável por registrar acontecimentos importantes durante a execução do sistema, permitindo acompanhar
+operações e identificar problemas.
+
+
+Importação	            Explicação
+logging	                Biblioteca padrão do Python para registrar informações, avisos e erros durante a execução do sistema.
+registrar	            Função própria do projeto que registra acontecimentos ou operações no sistema.
+registrar_operacao	    Função própria do projeto que registra operações executadas, permitindo manter um histórico de atividades.
+
+Na prática se alguém consultar, cadastrar, atualizar ou excluir um cliente, o sistema pode registrar essa operação para
+fins de rastreabilidade.

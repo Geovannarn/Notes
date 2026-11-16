@@ -1,0 +1,13 @@
+A API é responsável por receber requisições, processar informações, acessar o banco de dados e devolver respostas.
+
+Importação                       	Explicação
+
+api_view	                        Define quais métodos HTTP uma rota aceita, como GET, POST, PUT e DELETE.
+Response	                        Devolve respostas da API em formato JSON.
+status	                            Fornece códigos HTTP para indicar o resultado de uma requisição, como 200, 201, 400 e 404.
+conectar	                        Estabelece a conexão com o banco de dados PostgreSQL.
+normalizar_bairro	                Padroniza nomes de bairros, evitando diferenças desnecessárias na escrita.
+validar_cnpj	                    Verifica se um CNPJ é válido conforme sua estrutura e seus dígitos verificadores.
+normalizar_cep	                    Padroniza a representação dos CEPs.
+requests	                        Permite realizar requisições HTTP para serviços externos, como APIs de consulta de CEP.
+json	                            Permite converter dados entre objetos Python e JSON, formato muito utilizado na comunicação entre sistemas.

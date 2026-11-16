@@ -1,0 +1,62 @@
+O BENCHMARK é responsável por avaliar o desempenho do processamento de dados, medindo aspectos como tempo de execução,
+consumo de recursos e comportamento das operações.
+
+Configurações e testes
+Importação	                            Explicação
+config	                                Centraliza configurações utilizadas pelos testes de benchmark, como parâmetros e limites de execução.
+ApiIndisponivel	                        Representa uma condição de indisponibilidade de uma API, permitindo tratar esse cenário.
+testar_api	                            Executa testes para avaliar a comunicação e o funcionamento de uma API.
+conectar_banco	                        Estabelece uma conexão com o banco de dados para os testes.
+testar_carga	                        Avalia o processo de carregamento de dados no banco.
+testar_extracao	                        Executa testes relacionados à extração de dados.
+testar_transformacao	                Avalia o processamento e a transformação dos dados.
+
+
+
+Geração e gerenciamento de arquivos
+Importação	                            Explicação
+arquivo_reaproveitavel	                Verifica ou identifica arquivos que podem ser reutilizados nos testes, conforme a implementação.
+caminho_meta	                        Define ou recupera o caminho utilizado para armazenar metadados.
+gerar_csv	                            Gera arquivos CSV para utilização nos testes.
+ler_meta	                            Lê metadados associados aos arquivos ou execuções.
+
+
+
+
+
+
+Monitoramento e medição
+Importação	                           Explicação
+Coletor	Classe                         responsável por coletar métricas durante os testes de desempenho.
+psutil	                               Monitora recursos do computador, como CPU, memória RAM, processos e disco.
+time	                               Permite medir a duração das operações e controlar intervalos de execução.
+threading	                           Permite executar tarefas em threads, possibilitando testes com operações concorrentes.
+datetime	                           Registra e manipula datas e horários das execuções.
+
+
+
+
+
+
+Relatórios e visualização
+Importação	                           Explicação
+gerar_relatorio	                       Gera relatórios com os resultados obtidos nos testes.
+numpy (np)	                           Realiza cálculos numéricos e operações com matrizes e conjuntos de dados.
+pandas (pd)	                           Organiza, manipula e analisa os dados coletados durante os testes.
+matplotlib	                           Permite criar gráficos para visualizar os resultados do benchmark.
+base64                                 Codifica e decodifica dados em Base64, podendo ser utilizado para incorporar conteúdos em outros formatos.
+html	                               Trabalha com entidades HTML e caracteres especiais, podendo auxiliar na geração de conteúdo HTML.
+
+
+
+
+
+
+Recursos auxiliares do Python
+Importação	                           Explicação
+os	                                   Interage com o sistema operacional, acessa variáveis de ambiente e manipula arquivos e diretórios.
+random	                               Gera valores aleatórios, podendo ser utilizado para criar dados de teste.
+platform	                           Identifica o sistema operacional e informações da plataforma utilizada.
+Path	                               Manipula caminhos de arquivos e diretórios.
+defaultdict	Cria                       dicionários que atribuem valores padrão automaticamente quando uma chave ainda não existe.
+contextmanager	                       Permite criar gerenciadores de contexto personalizados, utilizados com with.
